@@ -32,23 +32,23 @@ class _HomeScreenState extends State<HomeScreen> {
           padding: const EdgeInsets.symmetric(horizontal: 14),
           child: Column(
             children: [
-              const SizedBox(height: 8),
+              const SizedBox(height: 25),
 
               /// Header
               Row(
                 children: [
-                  IconButton(
-                    onPressed: () {
-                      Navigator.pop(context);
-                    },
-                    icon: const Icon(Icons.arrow_back_ios_new, size: 18),
-                  ),
+                  // IconButton(
+                  //   onPressed: () {
+                  //     Navigator.pop(context);
+                  //   },
+                  //   icon: const Icon(Icons.arrow_back_ios_new, size: 18),
+                  // ),
                   const Text(
                     "FlashFlow",
                     style: TextStyle(
                       color: Color(0xFF6A00F4),
                       fontWeight: FontWeight.w700,
-                      fontSize: 18,
+                      fontSize: 22,
                     ),
                   ),
                 ],
@@ -176,23 +176,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                               const SizedBox(height: 48),
 
-                              // if (!showAnswer) ...[
-                              //   const Icon(
-                              //     Icons.touch_app_outlined,
-                              //     size: 40,
-                              //     color: Color(0xFFD5B7FF),
-                              //   ),
-                              //   const SizedBox(height: 12),
-                              //   const Text(
-                              //     "TAP TO REVEAL",
-                              //     style: TextStyle(
-                              //       color: Color(0xFFD5B7FF),
-                              //       fontSize: 11,
-                              //       fontWeight: FontWeight.w700,
-                              //       letterSpacing: 1.5,
-                              //     ),
-                              //   ),
-                              // ],
+
                             ],
                           ),
                         ),

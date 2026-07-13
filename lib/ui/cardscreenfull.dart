@@ -44,7 +44,7 @@ class _FlashFlowScreenState extends State<FlashFlowScreen> {
                   const Text(
                     "Manage Cards",
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 22,
                       fontWeight: FontWeight.bold,
                       color: Color(0xff6200EE),
                     ),

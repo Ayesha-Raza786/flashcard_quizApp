@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import '../viewModel/flashcard_view.dart';
 
 class EmptyFlashcardScreen extends StatelessWidget {
   const EmptyFlashcardScreen({super.key});
@@ -16,19 +19,11 @@ class EmptyFlashcardScreen extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 22),
           child: Column(
             children: [
-              const SizedBox(height: 8),
+              const SizedBox(height: 20),
 
               /// Header
               Row(
                 children: [
-                  IconButton(
-                    onPressed: () {},
-                    icon: const Icon(
-                      Icons.arrow_back,
-                      color: purple,
-                      size: 24,
-                    ),
-                  ),
 
                   const SizedBox(width: 10),
 
@@ -36,7 +31,7 @@ class EmptyFlashcardScreen extends StatelessWidget {
                     "FlashFlow",
                     style: TextStyle(
                       color: purple,
-                      fontSize: 18,
+                      fontSize: 22,
                       fontWeight: FontWeight.w700,
                     ),
                   ),
@@ -114,7 +109,9 @@ class EmptyFlashcardScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(12),
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    context.read<FlashcardViewModel>().changeTab(2);
+                  },
                   icon: const Icon(
                     Icons.add,
                     color: Colors.white,

@@ -52,20 +52,10 @@ class _CreateCardScreenState extends State<CreateCardScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             /// Header
-       const SizedBox(height: 20),
+       const SizedBox(height: 35),
             Row(
               children: [
 
-                IconButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  icon: const Icon(
-                    Icons.arrow_back,
-                    color: Color(0xff6200EE),
-                    size: 30,
-                  ),
-                ),
                 const Text(
                   "FlashFlow",
                   style: TextStyle(
