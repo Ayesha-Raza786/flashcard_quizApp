@@ -101,11 +101,11 @@ State management is handled using **Provider**.
   <tr>
     <td align="center">
       <img src="assets/screenshots/show_question.png" width="220"/><br>
-      <b>Home Screen</b>
+      <b>Question Shown</b>
     </td>
     <td align="center">
       <img src="assets/screenshots/show_answer.png" width="220"/><br>
-      <b>Manage Cards</b>
+      <b>Answer Shown</b>
     </td>
     <td align="center">
       <img src="assets/screenshots/add_card.png" width="220"/><br>
@@ -116,15 +116,15 @@ State management is handled using **Provider**.
   <tr>
     <td align="center">
       <img src="assets/screenshots/add_tag.png" width="220"/><br>
-      <b>Edit Flashcard</b>
+      <b>Add Tag</b>
     </td>
     <td align="center">
       <img src="assets/screenshots/empty_flashflow.png" width="220"/><br>
-      <b>Quiz Screen</b>
+      <b>Empty Flashflow</b>
     </td>
     <td align="center">
       <img src="assets/screenshots/manage_card.png" width="220"/><br>
-      <b>Answer Revealed</b>
+      <b>Manage Card</b>
     </td>
   </tr>
 </table>
