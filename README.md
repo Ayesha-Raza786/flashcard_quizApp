@@ -1,26 +1,26 @@
-# 📚 FlashFlow - Flashcard Quiz App
+#  FlashFlow - Flashcard Quiz App
 
 FlashFlow is a Flutter-based flashcard application designed to help users study efficiently using digital flashcards. Users can create, edit, delete, and review flashcards while storing all data locally using SQLite (sqflite).
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📖 View all flashcards
-- ➕ Create new flashcards
-- ✏️ Edit existing flashcards
-- 🗑️ Delete flashcards
-- 💾 Local data storage using SQLite (sqflite)
-- 🏷️ Categorize flashcards with tags
-- 🔍 Manage flashcards in a clean interface
-- 📚 Study flashcards one by one
-- 👀 Reveal/Hide answers
-- ⏭️ Next and Previous card navigation
-- 📱 Responsive Material UI
+-  View all flashcards
+-  Create new flashcards
+-  Edit existing flashcards
+-  Delete flashcards
+-  Local data storage using SQLite (sqflite)
+-  Categorize flashcards with tags
+-  Manage flashcards in a clean interface
+-  Study flashcards one by one
+-  Reveal/Hide answers
+-  Next and Previous card navigation
+-  Responsive Material UI
 
 ---
 
-## 📱 Screens
+## Screens
 
 - Home Screen
 - Manage Cards Screen
@@ -29,7 +29,7 @@ FlashFlow is a Flutter-based flashcard application designed to help users study 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Flutter
 - Dart
@@ -40,7 +40,7 @@ FlashFlow is a Flutter-based flashcard application designed to help users study 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 lib/
@@ -53,12 +53,12 @@ lib/
 
 ---
 
-## 🗄️ Database
+## Database
 
 SQLite is used to store flashcards locally on the user's device.
 
 
-## 🚀 Functionality
+##  Functionality
 
 ### Add Flashcard
 
@@ -82,7 +82,7 @@ SQLite is used to store flashcards locally on the user's device.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 This project follows the MVVM (Model-View-ViewModel) architecture.
 
@@ -95,7 +95,7 @@ State management is handled using **Provider**.
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <table align="center">
   <tr>
